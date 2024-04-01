@@ -15,6 +15,10 @@
 		F3C38AC12BB8CB3B0034C2BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C38ABF2BB8CB3B0034C2BA /* Main.storyboard */; };
 		F3C38AC32BB8CB3C0034C2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C38AC22BB8CB3C0034C2BA /* Assets.xcassets */; };
 		F3C38AC62BB8CB3C0034C2BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C38AC42BB8CB3C0034C2BA /* LaunchScreen.storyboard */; };
+		F3C38ACD2BB8D02B0034C2BA /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C38ACC2BB8D02B0034C2BA /* Brick.swift */; };
+		F3C38ACF2BB8D0DE0034C2BA /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C38ACE2BB8D0DE0034C2BA /* PhysicsCategory.swift */; };
+		F3C38AD12BB8D1780034C2BA /* Paddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C38AD02BB8D1780034C2BA /* Paddle.swift */; };
+		F3C38AD32BBA1D820034C2BA /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C38AD22BBA1D820034C2BA /* Border.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		F3C38AC02BB8CB3B0034C2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3C38AC22BB8CB3C0034C2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3C38AC52BB8CB3C0034C2BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C38ACC2BB8D02B0034C2BA /* Brick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		F3C38ACE2BB8D0DE0034C2BA /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		F3C38AD02BB8D1780034C2BA /* Paddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paddle.swift; sourceTree = "<group>"; };
+		F3C38AD22BBA1D820034C2BA /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				F3C38ABF2BB8CB3B0034C2BA /* Main.storyboard */,
 				F3C38AC22BB8CB3C0034C2BA /* Assets.xcassets */,
 				F3C38AC42BB8CB3C0034C2BA /* LaunchScreen.storyboard */,
+				F3C38ACC2BB8D02B0034C2BA /* Brick.swift */,
+				F3C38ACE2BB8D0DE0034C2BA /* PhysicsCategory.swift */,
+				F3C38AD02BB8D1780034C2BA /* Paddle.swift */,
+				F3C38AD22BBA1D820034C2BA /* Border.swift */,
 			);
 			path = G01Breakout;
 			sourceTree = "<group>";
@@ -145,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3C38ABC2BB8CB3B0034C2BA /* GameScene.swift in Sources */,
+				F3C38AD32BBA1D820034C2BA /* Border.swift in Sources */,
+				F3C38ACD2BB8D02B0034C2BA /* Brick.swift in Sources */,
+				F3C38ACF2BB8D0DE0034C2BA /* PhysicsCategory.swift in Sources */,
+				F3C38AD12BB8D1780034C2BA /* Paddle.swift in Sources */,
 				F3C38ABE2BB8CB3B0034C2BA /* GameViewController.swift in Sources */,
 				F3C38AB62BB8CB3B0034C2BA /* AppDelegate.swift in Sources */,
 			);
